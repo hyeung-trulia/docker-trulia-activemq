@@ -1,2 +1,2 @@
 # docker-trulia-activemq
-Ubuntu 14 with ActiveMQ 5.6 and Java 1.6
+Centos6 with ActiveMQ 5.6 and Java 1.6
