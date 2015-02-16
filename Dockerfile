@@ -24,3 +24,4 @@ RUN gzip -d /tmp/activemq.tar.gz  && cd /usr/local/ && tar xvf /tmp/activemq.tar
 EXPOSE 8161
 EXPOSE 61613
 
+ADD run.sh /
