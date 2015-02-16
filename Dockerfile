@@ -23,5 +23,6 @@ RUN gzip -d /tmp/activemq.tar.gz  && cd /usr/local/ && tar xvf /tmp/activemq.tar
 # expose ports
 EXPOSE 8161
 EXPOSE 61613
+EXPOSE 61616
 
-ADD run.sh /
+ADD run.sh /run.sh
