@@ -20,4 +20,8 @@ RUN curl -o /tmp/activemq.tar.gz "http://archive.apache.org/dist/activemq/apache
 
 RUN gzip -d /tmp/activemq.tar.gz  && cd /usr/local/ && tar xvf /tmp/activemq.tar && ln -s /usr/local/apache-activemq-$AMQ_VERSION ./activemq
 
+# expose ports
+EXPOSE 8161
+EXPOSE 61613
+
 CMD ["/usr/local/activemq/bin/activemq", "start"] 
